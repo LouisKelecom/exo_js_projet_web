@@ -9726,6 +9726,40 @@ nav .btn {
   padding-bottom: 100px;
 }
 
+.products h2 {
+  font-size: 23px;
+  font-family: "Poppins-Bold";
+}
+.products h3 {
+  font-size: 17px;
+  font-family: "Poppins-Bold";
+}
+.products span {
+  color: #bd584e;
+  font-family: "Poppins-Bold";
+  font-size: 15px;
+}
+.products .pr-2 {
+  text-decoration: line-through;
+  color: #CACACA;
+}
+.products .onsale {
+  border-radius: 100%;
+  color: white;
+  background-color: #bd584e;
+  position: static;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  width: 48px;
+  height: 48px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 48px;
+  font-family: "Poppins", sans-serif;
+  text-align: -webkit-center;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("./../../public/fonts/Poppins-Regular.ttf");
