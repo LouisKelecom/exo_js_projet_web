@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,84 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- TITRE MARQUE -->
+        <div class="header-marque">
+            <h1 class="text-center">emporium.</h1>
+        </div>
+
+        <!-- NAVBAR -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light col-md-12">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <ul class="navbar-nav px-auto">
+                            <li class="nav-item pr-4">
+                                <a class="nav-link pb-5 px-0 pt-0 text-body" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link pb-5 px-0 pt-0" href="#">PRODUCT</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link pb-5 px-0 pt-0" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link pb-5 px-0 pt-0" href="#">ELEMENTS</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link pb-5 px-0 pt-0" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item pl-4">
+                                <a class="nav-link pb-5 px-0 pt-0" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn-light mr-1"></button>
+                        <button type="button" class="btn-dark"></button>
+                        <button class="btn btn-dark btn-outline-white my-2 my-sm-0" type="submit">Connection</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- T-SHIRT COVER -->
+
+    <div class="container t-shirt">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Shop at</h3>
+                        <h1>emporium.</h1>
+                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
+                            spring which I enjoy with my.</p>
+                        <button class="button-pill button-danger">SALE ITEMS</button>
+                    </div>
+                    <div class="col-md-6"><img src="./public/images/products/product-tshitr-white-700x500.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
     <!-- SCRIPTS -->
     <script src="./src/js/index.js"></script>
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
