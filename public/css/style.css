@@ -9678,12 +9678,13 @@ nav .btn {
 }
 
 .t-shirt {
-  background-color: #f3f3f3;
+  background: #f3f3f3;
+  background-size: cover;
 }
 .t-shirt h3 {
   font-size: 50px;
   color: #bd584e;
-  font-family: "SourceSansPro";
+  font-family: "Poppins-Light";
   font-weight: 300;
   padding-top: 180px;
 }
@@ -9704,6 +9705,27 @@ nav .btn {
   background-color: #bd584e;
 }
 
+.services .room {
+  background-image: url("./../../../public/images/services/service-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.services .items {
+  background-image: url("./../../../public/images/services/service-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.services .clothes {
+  background-image: url("./../../../public/images/services/slider-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.services h1 {
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("./../../public/fonts/Poppins-Regular.ttf");
@@ -9715,6 +9737,10 @@ nav .btn {
 @font-face {
   font-family: "SourceSansPro";
   src: url("./../../public/fonts/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./../../public/fonts/Poppins-Light.ttf");
 }
 .fa,
 .fas,
