@@ -9655,28 +9655,53 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.container {
-  padding-left: 35px;
-  padding-right: 35px;
-}
-.container h1 {
+h1 {
   font-family: "Poppins-Bold";
   font-size: 28px;
   padding-top: 92px;
   padding-bottom: 48px;
   margin: 0;
 }
-.container nav .navbar-collapse {
+
+nav {
   position: relative;
   text-align: center;
 }
-.container nav .navbar-collapse li a {
+nav li a {
   font-size: 13px;
   font-family: "Poppins";
   letter-spacing: 0.5px;
 }
-.container nav form {
-  position: absolute;
+nav .btn {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.t-shirt {
+  background-color: #f3f3f3;
+}
+.t-shirt h3 {
+  font-size: 50px;
+  color: #bd584e;
+  font-family: "SourceSansPro";
+  font-weight: 300;
+  padding-top: 180px;
+}
+.t-shirt h1 {
+  font-size: 100px;
+  font-family: "Poppins-Bold";
+}
+.t-shirt p {
+  color: #909090;
+  font-family: "SourceSansPro";
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.t-shirt span {
+  font-family: "SourceSansPro";
+  letter-spacing: 1px;
+  background-color: #bd584e;
 }
 
 @font-face {
@@ -9686,6 +9711,10 @@ h3 {
 @font-face {
   font-family: "Poppins-Bold";
   src: url("./../../public/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("./../../public/fonts/SourceSansPro-Regular.ttf");
 }
 .fa,
 .fas,
