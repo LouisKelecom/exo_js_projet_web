@@ -9699,7 +9699,7 @@ nav .btn {
   line-height: 30px;
   font-weight: 400;
 }
-.t-shirt span {
+.t-shirt .badge-danger {
   font-family: "SourceSansPro";
   letter-spacing: 1px;
   background-color: #bd584e;
@@ -9758,6 +9758,29 @@ nav .btn {
   line-height: 48px;
   font-family: "Poppins", sans-serif;
   text-align: -webkit-center;
+}
+
+#learn {
+  background: url("../../../public/images/cta-bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 596.8px;
+  display: flex;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.container .badge-danger {
+  font-family: "SourceSansPro";
+  letter-spacing: 1px;
+  background-color: #bd584e;
+  font-size: 13px;
+  letter-spacing: 0.8px;
 }
 
 @font-face {
