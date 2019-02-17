@@ -14,14 +14,14 @@
     <!-- CONTAINER -->
     <section class="container" id="header">
 
-        <!-- TITRE MARQUE -->
+        <!-- TITRE EMPORIUM -->
         <div id="header-marque">
             <h1 class="text-center">emporium.</h1>
         </div>
 
         <!-- NAVBAR -->
         <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light col-md-12 pb-5">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -30,32 +30,41 @@
 
                 <div class="collapse navbar-collapse row" id="navbarSupportedContent">
                     <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 d-flex justify-content-center">
                         <ul class="navbar-nav px-auto">
                             <li class="nav-item pr-4">
-                                <a class="nav-link pb-5 px-0 pt-0 text-body" href="#">HOME</a>
+                                <a class="nav-link pb-0 px-0 pt-0 text-body" href="#">HOME</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link pb-5 px-0 pt-0" href="#">PRODUCT</a>
+                                <a class="nav-link pb-0 px-0 pt-0" href="#">PRODUCT</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link pb-5 px-0 pt-0" href="#">BLOG</a>
+                                <a class="nav-link pb-0 px-0 pt-0" href="#">BLOG</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link pb-5 px-0 pt-0" href="#">ELEMENTS</a>
+                                <a class="nav-link pb-0 px-0 pt-0" href="#">ELEMENTS</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link pb-5 px-0 pt-0" href="#">ABOUT</a>
+                                <a class="nav-link pb-0 px-0 pt-0" href="#">ABOUT</a>
                             </li>
                             <li class="nav-item pl-4">
-                                <a class="nav-link pb-5 px-0 pt-0" href="#">CONTACT</a>
+                                <a class="nav-link pb-0 px-0 pt-0" href="#">CONTACT</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-2">
-                        <button type="button" class="btn-light mr-1"></button>
-                        <button type="button" class="btn-dark"></button>
-                        <button class="btn btn-dark btn-outline-white my-2 my-sm-0" type="submit">Connection</button>
+                    <div class="col-md-2 boutons">
+                        <ul class="d-flex p-0 m-0">
+                            <li>
+                                <button type="button" class="rounded btn-light mr-1 border border-dark"><i class="fas fa-mobile-alt"></i></button>
+                            </li>
+                            <li>
+                                <button type="button" class=" rounded btn-dark mr-3"><i class="fas fa-mobile-alt"></i></button>
+                            </li>
+                            <li>
+                                <button class="connection rounded btn-dark btn-outline-white m-0 my-sm-0"
+                                    type="submit">Connection</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -63,47 +72,48 @@
     </section>
 
     <!-- T-SHIRT COVER -->
-    <section class="pt-5" id="t-shirt">
+    <section class="py-5" id="t-shirt">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 p-0">
+                <div class="col-lg-6 col-md-6 p-0">
                     <h3 class="pb-0">Shop at</h3>
                     <h1 class="pt-0 pb-2">emporium.</h1>
                     <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of
                         spring which I enjoy with my.</p>
                     <span class="badge badge-pill badge-danger mt-4 px-5 py-3">SALE ITEMS</span>
                 </div>
-                <div class="col-md-6 p-0">
-                    <img class="img-fluid pl-5" src="./public/images/slider-1.jpg" alt="">
+                <div class="col-lg-6 col-md-6 p-0">
+                    <img class="img-fluid" src="./public/images/slider-1.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SERVICES -->
-    <section class="container" id="services">
-        <div class="services">
-            <div class="row pt-4 pb-5">
-                <div class="col-md-4">
-                    <div class="text-center room">
-                        <a>
-                            <h1>Living Room</h1>
-                        </a>
-                    </div>
+    <section class="mx-5" id="services">
+        <div class="row pb-4">
+            <div class="col-lg-4">
+                <div class="text-center d-flex justify-content-center align-items-center my-4 room">
+                    <a>
+                        <h1>Living Room</h1>
+                        <hr class="bg-white">
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center items">
-                        <a>
-                            <h1>Sale Items</h1>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center d-flex justify-content-center align-items-center my-4 items">
+                    <a>
+                        <h1>Sale Items</h1>
+                        <hr class="bg-white">
+                    </a>
                 </div>
-                <div class="col-md-4">
-                    <div class="text-center clothes">
-                        <a>
-                            <h1>Clothes</h1>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center d-flex justify-content-center align-items-center my-4 clothes">
+                    <a>
+                        <h1>Clothes</h1>
+                        <hr class="bg-white">
+                    </a>
                 </div>
             </div>
         </div>
@@ -124,7 +134,7 @@
                 <img class="img-fluid pb-3" src="./public/images/products_mini/product-gloves.jpg" alt="">
                 <div class="justify-content-center d-flex pt-4 pb-5">
                     <span class="onsale">Sale!</span>
-                    <div>
+                    <div class="text-center">
                         <h3><a>Leather Gloves</a></h3>
                         <span class="pr-2">$34.00</span>
                         <span>$27.00</span>
@@ -144,7 +154,7 @@
                 <img class="img-fluid pb-3" src="./public/images/products_mini/product-bag.jpg" alt="">
                 <div class="justify-content-center d-flex pt-4 pb-5">
                     <span class="onsale">Sale!</span>
-                    <div>
+                    <div class="text-center">
                         <h3><a>Women Bag</a></h3>
                         <span class="pr-2">$420.00</span>
                         <span>$350.00</span>
@@ -234,7 +244,7 @@
                                                 src="./public/images/products/product-bag-2-700x500.jpg" alt="">
                                             <div class="justify-content-center d-flex pt-4 pb-3">
                                                 <span class="onsale">Sale!</span>
-                                                <div>
+                                                <div class="text-center">
                                                     <h3><a>Red Bag</a></h3>
                                                     <span class="pr-2">$600.00</span>
                                                     <span>$450.00</span>
@@ -275,7 +285,7 @@
                                                 src="./public/images/products/product-bag-2-700x500.jpg" alt="">
                                             <div class="justify-content-center d-flex pt-4 pb-3">
                                                 <span class="onsale">Sale!</span>
-                                                <div>
+                                                <div class="text-center">
                                                     <h3><a>Red Bag</a></h3>
                                                     <span class="pr-2">$600.00</span>
                                                     <span>$450.00</span>
@@ -355,7 +365,7 @@
                                                 src="./public/images/products/product-bag-700x500.jpg" alt="">
                                             <div class="justify-content-center d-flex pt-4 pb-3">
                                                 <span class="onsale">Sale!</span>
-                                                <div>
+                                                <div class="text-center">
                                                     <h3><a>Women Bag</a></h3>
                                                     <span class="pr-2">$420.00</span>
                                                     <span>$350.00</span>
@@ -395,7 +405,7 @@
                                                 src="./public/images/products/product-bag-700x500.jpg" alt="">
                                             <div class="justify-content-center d-flex pt-4 pb-3">
                                                 <span class="onsale">Sale!</span>
-                                                <div>
+                                                <div class="text-center">
                                                     <h3><a>Women Bag</a></h3>
                                                     <span class="pr-2">$420.00</span>
                                                     <span>$350.00</span>
@@ -409,7 +419,7 @@
                                                 src="./public/images/products/product-gloves-700x500.jpg" alt="">
                                             <div class="justify-content-center d-flex pt-4 pb-3">
                                                 <span class="onsale">Sale!</span>
-                                                <div>
+                                                <div class="text-center">
                                                     <h3><a>Leather Gloves</a></h3>
                                                     <span class="pr-2">$34.00</span>
                                                     <span>$27.00</span>
@@ -433,36 +443,90 @@
     <!-- CARDS -->
     <section class="container mt-5" id="cards">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 mb-4">
                 <div class="card py-5 px-5 border-0 rounded-0">
                     <div class="card-body text-center">
                         <i class="fas fa-2x fa-check-circle pb-5"></i>
                         <h5 class="card-title pb-4">TRUSTED BY 10,000+ CUSTOMERS</h5>
-                        <p class="card-text pb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="card-text pb-4">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.</p>
                         <a href="#" class="card-link"><span class="badge badge-dark py-3 px-4">LEARN MORE</span></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mb-4">
                 <div class="card py-5 px-5 border-0 red rounded-0 text-white">
                     <div class="card-body text-center">
                         <i class="fas fa-2x fa-paper-plane pb-5"></i>
                         <h5 class="card-title pb-4">VERY FAST SHIPPING</h5>
-                        <p class="card-text pb-4 text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="card-text pb-4 text-white">Far far away, behind the word mountains, far from the
+                            countries Vokalia and Consonantia, there live the blind texts.</p>
                         <a href="#" class="card-link"><span class="badge badge-light py-3 px-4">LEARN MORE</span></a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 mb-4">
                 <div class="card py-5 px-5 border-0 rounded-0">
                     <div class="card-body text-center">
                         <i class="fas fa-2x fa-check-circle pb-5"></i>
                         <h5 class="card-title pb-4">TRUSTED BY 10,000+ CUSTOMERS</h5>
-                        <p class="card-text pb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="card-text pb-4">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.</p>
                         <a href="#" class="card-link"><span class="badge badge-dark py-3 px-4">LEARN MORE</span></a>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4 px-4">
+                    <span>ABOUT US</span>
+                    <p class="pt-4">A wonderful serenity has taken possession of my entire soul, like these sweet
+                        mornings of spring
+                        which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
+                        which
+                        was created for the bliss of</p>
+                </div>
+                <div class="col-md-4 px-4 border-left">
+                    <span>RECENT POSTS</span>
+                    <ul class="p-0 pt-4">
+                        <li class="pb-3 "><i class="fas fa-xs fa-angle-right pr-3 pl-2"></i><a href="">Hello World!</a>
+                        </li>
+                        <li class="pb-3 pt-3"><i class="fas fa-xs fa-angle-right pr-3 pl-2"></i><a href="">Wonderful
+                                Serenity has taken</a></li>
+                        <li class="pb-3 pt-3"><i class="fas fa-xs fa-angle-right pr-3 pl-2"></i><a href="">In my soul
+                                and absorb its power</a></li>
+                        <li class="pb-3 pt-3"><i class="fas fa-xs fa-angle-right pr-3 pl-2"></i><a href="">I hear the
+                                buzzot the little</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 px-4 border-left tag">
+                    <span>TAG CLOUD</span>
+                    <div class="pt-4">
+                        <a href="">BUSINESS</a>
+                        <a href="">CONFERENCE</a>
+                        <a href="">GADGETS</a>
+                        <a href="">IDENTITY</a>
+                        <a href="">LOGO</a>
+                        <a href="">PHOTOGRAPHY</a>
+                        <a href="">TIME</a>
+                        <a href="">TRIPS</a>
+                        <a href="">WORKS</a>
+                        <a href="">WORK SPACE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COPYRIGHT -->
+    <section id="copyright">
+        <div class="text-center container p-5">
+            <p class="m-0">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p>
         </div>
     </section>
 

@@ -1,27 +1,38 @@
 #t-shirt
     background: rgb(243, 243, 243)
     background-size: cover
-    
-    h3
-        font-size: 50px
-        color: rgb(189, 88, 78)
-        font-family: "Poppins-Light"
-        font-weight: 300
-        padding-top: 180px
 
-    h1
-        font-size: 100px
-        font-family: $titlefont
-
-    p
-        color: rgb(144, 144, 144)
-        font-family: $mainfont
-        font-size: 20px
-        line-height: 30px
-        font-weight: 400
+    .row
+        align-items: center
     
-    .badge-danger
-        font-family: $mainfont
-        letter-spacing: 1px
-        background-color: rgb(189, 88, 78)
+        h3
+            font-size: 50px
+            color: rgb(189, 88, 78)
+            font-family: "Poppins-Light"
+            font-weight: 300
+            // padding-top: 180px
+
+        h1
+            font-size: 100px
+            font-family: $titlefont
+
+        p
+            color: rgb(144, 144, 144)
+            font-family: $mainfont
+            font-size: 20px
+            line-height: 30px
+            font-weight: 400
+        
+        .badge-danger
+            font-family: $mainfont
+            letter-spacing: 1px
+            background-color: rgb(189, 88, 78)
+
+    // MEDIA QUERIES
+    @media only screen and (max-width: 768px)
+        h1
+            font-size: 50px
+
+        h3
+            font-size: 25px
     
