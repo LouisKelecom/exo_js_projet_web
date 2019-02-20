@@ -1,72 +1,99 @@
-# Projet Web en JS
+# JavaScript Web Project
+During our coding training at **MolenGeek** we had to reproduce this website theme (see image below) to earn our badges. We have used the following languages/tools for the realisation of this project: **HTML5, Sass, Bootstrap 4, JavaScript (ES6), NPM, Trello, Git & GitHub**.
 
-#### Instructions :
-- Reproduire l'image en HTML/CSS. Pour le js vous pouvez utiliser les fonctionnalités de bootstrap sauf pour :
-- Au clique du bouton *Connection* un modal s'ouvre avec une petite navigation et un contenu qui change selon le choix
-  - Connexion **"button de nav du modal"**
-    - Email 
-    - Mot de passe
-  - Inscription **"button de nav du modal"**
-    - Nom 
-    - Prénom
-    - Age
-    - Email
-    - Mot de pass 
-- Au scroll la navbar réapparait (voir site)
-- A côté du bouton **"Connexion"** deux carrés l'un blanc et l'autre noir qui permetront de changer le theme du site (au moins pour la navbar)
+![Alt](https://raw.githubusercontent.com/LouisKelecom/exo_js_projet_web/master/public/images/layout.png)
 
-#### [Adresse du site web](https://demo.goodlayers.com/infinite/homepages/emporium/#)
+## Getting Started
 
-#### Gain des badges
+Clone this repository on your local machine.
+```
+git clone https://github.com/LouisKelecom/exo_js_projet_web.git
+```
+Run the following commands into the project folder to install project dependencies.
+```
+npm init
+npm install
+```
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-##### html
+## Project instructions
+- Reproduce the image _(above)_ in HTML5 & CSS3 _(Sass)_
+- At the click on the Connexion button a modal opens with a tabs navigation and the content that changes according to the choice _(Login/Sign up form)_
+- **Login form** contains following inputs :
+	- E-mail
+	- Password
 
--   structure page
--   commentaires utiles
--   pas de balises mal fermées
-    
-##### css
-    
--   code réutilisables (avec classes)
--   pas de propriétés inutiles
--   class et id qui parlent
--   import de fonts (@font-face)
--   media-queries
--   ordre d'import
+- **Sign up form** contains following inputs :
+	- Name
+	- First name
+	- Age
+	- E-mail
+	- Password
 
-##### sass
+- On scroll the navbar collapse
+- Before to the **Connexion button** two squares, one black and the other white, which will allow to change the main theme colors of the site
 
--   respect css
--   utiliser l'imbrication sass
--   utiliser des variables
--   imports de fichiers sass
--   import de bootstrap et fontawesome dans sass !
+## Built With
 
-##### bootstrap
+* [HTML5](https://www.w3.org/html/)
+* [Sass](https://www.sass-lang.com/)
+* [Bootstrap 4](https://getbootstrap.com/)
+* [JavaScript (ES6)](https://www.javascript.com/)
 
--   respect css
--   structure class (container>row>col)
--   responsivité (class sm, ...)
--   utiliser jquery bootstrap (carousels, spyscroll, tabpans) (2)
-    
-##### structure du projet    
--   structure vu au cours
+## Author(s)
 
-##### javascript
-- La todolist
-- Le projet web js "emporium"
+* **Louis Kelecom** - [GitHub account](https://github.com/LouisKelecom)
 
-#### git
-  - Savoir Créer des branches et travailler dessus
-  - Faire des commits, **claires et utiles**
-  - Utiliser le fichier .gitignore
+## License of the original theme
 
-#### github
-  - Mettre son projet sur github
-  - Remplir le fichier README.md avec comme contenu l'explication du projet
+Copyright 2020 | **GOODLAYERS** - All rights reserved
+[Original website theme **emporium**](https://demo.goodlayers.com/infinite/homepages/emporium/)
 
-#### markdown
-  - Le README.md de github doit prouver que le markdown est maitrisé (en mettant divers raccourcis markdown)
+## Conditions to get badges
+### Project structure
+- Good project structure
 
-#### emmet
-  - Pouvoir montrer l'utilisation d'emmet
+### HTML5
+- Webpage structure
+- Good comments
+- HTML tags well closed
+
+### CSS3
+- Reusable code _(with classes)_
+- No useless properties
+- Good classes & id names
+- Import order
+- Media queries
+
+### Sass
+- Respect CSS
+- Use sass nesting
+- Use variables
+- Import order Sass files
+- Import Bootstrap & FontAwesome in Sass
+- Import fonts in Sass _(@font-face)_
+
+### Bootstrap 4.3.-
+- Respect CSS
+- Classes structure _(.container > .row > .col)_
+- Responsive _(col classes sm, md, lg & xl)_
+- Use Bootstrap JS (with jQuery) for Carousels, spy-scroll, tabs _(at least 2)_
+
+### JavaScript (ES6)
+- ToDoList project : [GitHub Repository](https://github.com/LouisKelecom/exo_toDoList)
+- JS web project : **emporium**
+
+### git
+- Make useful & clear commits
+- Know how to create branches and work on them
+- Use the .gitignore file
+
+### GitHub
+- Put your project on GitHub
+- Fill in the **README.md** file with the project explanation
+
+### Markdown
+- The README.md file on github must prove that the markdown is mastered _(by using various Markdown shortcuts)_
+
+### Emmet
+- To be able to show the use of Emmet
