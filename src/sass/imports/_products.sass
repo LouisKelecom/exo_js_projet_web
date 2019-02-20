@@ -35,10 +35,15 @@
 
     // TRANSITION PRODUCTS
     .my-card
-        
 
-        img
+        .image
             overflow: hidden
+
+            img
+                overflow: hidden
+                transition: 0.2s
+                max-width: 100%
+            
         
         .justify-content-center
             z-index: 2
@@ -91,6 +96,9 @@
 
     .my-card:hover .my-body-card
         bottom: 148px
+
+    .my-card:hover img
+        transform: scale(1.1)
 
 
         

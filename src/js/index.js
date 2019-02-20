@@ -128,8 +128,8 @@ console.log(" ----- SHRINK NAVBAR ONSCROLL ----- ");
 
 
 // Get the elements of the navbar for the scroll
-let scrollNavbar = document.getElementById("navbar");
-console.log(scrollNavbar);
+console.log(navbar);
+
 let logoScrollBar = document.getElementById("logo");
 console.log(logoScrollBar);
 
@@ -139,11 +139,11 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        scrollNavbar.classList.add("fixed-top");
+        navbar.classList.add("fixed-top");
         logoScrollBar.style.display = "block";
 
     } else {
-        scrollNavbar.classList.remove("fixed-top");
+        navbar.classList.remove("fixed-top");
         logoScrollBar.style.display = "none";
     }
 }
