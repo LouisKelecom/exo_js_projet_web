@@ -9957,6 +9957,9 @@ h3 {
   top: auto;
   bottom: -40px;
 }
+#caroussel .blog .carousel-indicators {
+  z-index: 3;
+}
 #caroussel .blog .carousel-indicators li {
   background: white;
   border-radius: 50%;
